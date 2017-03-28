@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="updateapp">
+<head>
+<script src="angular.js">
+</script>
+<script src="update1.js">
+</script>
+
+</head>
+<body>
+
+<h1 style="color: blue">SEARCH SITE</h1>
+<div ng-controller="updatecntrl">
+
+<form name="f1" method="post" action="ssite" id="f1">
+<table>
+			
+<tr>
+	
+<td><h3 style="color: red">Name:</h3></td> 
+		
+<td><input type="text" ng-module="name" /></td>
+</tr>
+ </table>
+ 
+ 
+     
+<p>{{name}}</p>
+			<input type="submit" name="search" value="Search"
+				style="font-size: 26px;" /> 
+		</form>
+		</div>
+</body>
+</html>
