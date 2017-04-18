@@ -1,16 +1,13 @@
 <!DOCTYPE html>
-<html ng-app="updateapp">
+<html >
 <head>
-<script src="angular.js">
-</script>
-<script src="update1.js">
-</script>
+
 
 </head>
 <body>
 
 <h1 style="color: blue">SEARCH SITE</h1>
-<div ng-controller="updatecntrl">
+
 
 <form name="f1" method="post" action="ssite" id="f1">
 <table>
@@ -19,14 +16,12 @@
 	
 <td><h3 style="color: red">Name:</h3></td> 
 		
-<td><input type="text" ng-module="name" /></td>
+<td><input type="text" name="name"/></td>
 </tr>
  </table>
  
- 
-     
-<p>{{name}}</p>
-			<input type="submit" name="search" value="Search"
+
+			<input type="submit" name="show" value="show"
 				style="font-size: 26px;" /> 
 		</form>
 		</div>
